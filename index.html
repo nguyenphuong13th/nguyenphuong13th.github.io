@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MyAnime</title>
+</head>
+<body>
+   
+   <div id="wrapper">
+       <header class="header container">
+          
+           <div class="banner"><img src="assets/images/marvel banner.jpg" alt="marvel-banner"></div>
+           <nav class="nav-bar">
+               <ul class="nav-list">
+                   <li class="nav-items">Home</li>
+                   <li class="nav-items">Characters</li>
+                   <li class="nav-items">Artist</li>
+                   <li class="nav-items">Infomation</li>
+                   <li class="nav-items"> Q/A</li>
+               </ul>
+           </nav>
+       </header>
+       <section class="search-bar container">
+           <h1 class="title">Here You Can Search Your Hero</h1>
+            <input type="text" name="search-area" id="search-area">
+            <button class="search-btn">Search</button>
+       </section>
+       <section class="image-cards container">
+           <ul class="image-cards-list">
+               <li class="image-cards-items"><img class="card" src="assets/images/captain-america-card.jpg" alt="captain-American" name="Captain America" type ="defender" rarity="gold"></li>
+               <li class="image-cards-items"><img class="card" src="assets/images/black-panther-card.jpg" alt="black-panther" name="Black Panther" type="attacker" rarity="gold"></li>
+               <li class="image-cards-items"><img class="card" src="assets/images/thor-card.jpg" alt="thor-card" name="Thor" type="mystic" rarity="gold"></li>
+               <li class="image-cards-items"><img class="card" src="assets/images/nick-fury-card.jpg" alt="nick-fury-card" name="Nick Fury" type="AOE" rarity="silver"></li>
+           </ul>
+       </section>
+   </div>
+   <script src="assets/javascript/tool.js">
+   </script> <!-- phải để cuối để trang load xong toàn bộ phần tử html-->
+</body>
+</html>
